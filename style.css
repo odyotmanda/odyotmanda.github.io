@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+
+}
+
+body{
+    background-color: #363062;
+    
+}
+
+.img1 {
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(180deg, rgba(54, 48, 98, 0) 73.15%, #363062 100%), url(image/a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: -99;
+    mix-blend-mode: normal;
+    
+    
+    
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    font-family:'Righteous', cursive ;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.281);
+    font-weight: 300;
+}
+
+nav ul  {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 40%;
+
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: normal;
+    transition: 0.5s;
+    
+}
+
+nav ul li a:hover {
+    color: #827397;
+    transition: 0.5s ;
+}
+
+nav h4 {
+    font-size: 26px;
+    color: white;
+    letter-spacing: 0.15em;
+    font-style: normal;
+}
+
+nav h4 span {
+    color: #827397;
+}
+
+.awal {
+    margin: auto;
+    width: 650px;
+    margin-top: 180px;
+    animation: animasi 2s ease-in-out ;
+    
+}
+
+@keyframes animasi {
+
+    from {
+        transform: translateY(80px);
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.awal h2 {
+    font-family: 'Padauk', sans-serif;
+    color: white;
+    letter-spacing: 0.15em;
+    font-size: 45px;
+    left: 10px;
+    width: 550px;
+    margin: auto;
+    font-weight: normal;
+    
+
+
+}
+
+.bt1 {
+    width: 100px;
+    height: 20px;
+    background-color: #82739779;
+    border-radius: 8px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.bt1 a {
+    color: rgba(255, 255, 255, 0.644);
+    text-decoration: none;
+    font-family: 'Padauk', sans-serif;
+    transition: 0.4s;
+}
+
+.bt1 a:hover {
+    color: white;
+    transition: 0.4s;
+}
+
+.pnj {
+
+    width: 800px;
+    background-color: #C4C4C4;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 300px;
+    border-radius: 7px;
+    padding-right: 6px;
+    box-sizing: border-box;
+
+
+}
+
+.pnj .gmb2 {
+
+    width: 330px;
+    height: 300px;
+    background-image: url(image/6.png);
+    background-size: cover;
+    background-position: -60px 0;
+
+}
+
+.pnj p {
+    width: 500px;;
+    font-family: 'Padauk', sans-serif;
+    font-size: 27px;
+    color: black;
+
+
+
+}
+
+.cont3 h3 {
+    margin: auto;
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 30px;
+    font-family:'Padauk', sans-serif;
+    font-weight: 200;
+}
+
+.cont3 {
+    width: 900px;
+    margin: 100px auto;
+    
+}
+
+.dst {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 50px;
+    flex-wrap: wrap;
+
+}
+
+.dst .bg1,.bg2,.bg3,.pj1,.pj2,.pj3 {
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+    font-family:'Padauk', sans-serif ;
+}
+
+.cont3 .dst .img {
+    margin: 7px;
+}
+
+.dst .bg1 {
+
+    background-image: url(image/4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.dst .bg2 {
+    background-image: url(image/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.dst .bg3 {
+    background-image: url(image/3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sub {
+    width: 900px;
+    margin: 30px auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family:'Padauk', sans-serif ;
+
+}
+
+.sub .kiri h2 {
+    font-weight: 200;
+    font-size: 34px;
+}
+
+.sub .kiri p {
+    font-size: 19px;
+    color: white;
+}
+
+.sub .kiri .subb .email input  {
+    width: 300px;
+    outline: none;
+    height: 50px;
+    font-size: 18px;
+    color: black;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.subb {
+    display: flex;
+}
+
+
+.subb .enter input {
+    height: 50px;
+    width: 60px;
+    color: rgba(0, 0, 0, 0.692);
+}
+
+.subb .enter input:active{
+    background-color: #827397;
+}
+
+.subb .email ::placeholder {
+    font-size: 16px;
+}
+
+
+
+.sub .kanan {
+    background-image: url(image/5.png);
+    width: 330px;
+    height: 300px;
+    background-size: cover;
+    background-position: -30px 0;
+
+
+}
+
+
+
+
+
+
+.bawah {
+
+display: flex;
+width: 100%;
+justify-content: space-evenly;
+align-items: center;
+box-sizing: border-box;
+background-color: #C4C4C4;
+height: 400px;
+}
+
+.contact .bawah .logo {
+    width: 300px;
+    height: 200px;
+}
+
+.contact .bawah .logo h4 {
+    font-size: 30px;
+    color: white;
+    letter-spacing: 0.15em;
+    font-style: normal;
+}
+
+.contact .bawah .logo h4 span {
+    color: #827397;
+}
+
+.contact .bawah .logo h5{
+    color: black;
+}
+
+.contact .logo {
+    display: flex;
+    justify-content: center;
+}
+
+.contact .INF {
+
+    width: 600px;
+    display: flex;
+}
+
+.contact.INF,.info1,.info2,.info3 {
+    width: 250px;
+    height: 200px;
+    font-size: 18px;
+    font-family: 'Padauk', sans-serif;
+    color: black;
+    line-height: 33px;
+    
+}
+
+.contact.INF,.info1,.info2,.info3,ul {
+    list-style: none;
+
+}
+
+.contact.INF,.info1,.info2,.info3,a {
+    color: black;
+    text-decoration: none;
+    font-weight: 100;
+    transition: 0.4s;
+}
+
+.contact.INF,.info1,.info2,.info3,a:hover {
+    color: #363062;
+    transition: 0.4s;
+}
+
+.contact.INF,p {
+    color: #363062;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #363062;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer .foo {
+
+    width: 400px;
+    height: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+footer .foo p {
+    color: white;
+    font-family: 'Padauk', sans-serif;
+    font-weight: 200;
+}
+
+
