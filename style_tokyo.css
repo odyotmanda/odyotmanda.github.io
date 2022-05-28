@@ -6,14 +6,14 @@
 }
 
 body{
-    background-color: #363062;
+    background-color: #00182C;
     
 }
 
 .img1 {
     width: 100%;
     height: 600px;
-    background: linear-gradient(180deg, rgba(54, 48, 98, 0) 73.15%, #363062 100%), url(image/a.jpg);
+    background: url(image/1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -69,17 +69,17 @@ nav h4 span {
 }
 
 .awal {
-    margin: auto;
+    margin-left: 60px;
     width: 650px;
-    margin-top: 180px;
-    animation: animasi 2s ease-in-out ;
+    margin-top: 150px;
+    animation: animasi 1.5s ease-in-out ;
     
 }
 
 @keyframes animasi {
 
     from {
-        transform: translateY(80px);
+        transform: translatex(-80px);
         opacity: 0;
     }
     to {
@@ -90,12 +90,11 @@ nav h4 span {
 .awal h2 {
     font-family: 'Padauk', sans-serif;
     color: white;
-    letter-spacing: 0.15em;
-    font-size: 45px;
+    letter-spacing: 0.405em;
+    font-size: 96px;
     left: 10px;
     width: 550px;
-    margin: auto;
-    font-weight: normal;
+    font-weight: 700;
     
 
 
@@ -104,30 +103,26 @@ nav h4 span {
 .bt1 {
     width: 100px;
     height: 30px;
-    background-color: #2b2b2b;
-    border-radius: 8px;
-    margin: auto;
+    background-color: #ffffffd2;
+    border-radius: 5px;
+    margin: 150px 0 200px 1200px;
     display: flex;
     justify-content: center;
     padding: 3px;
-    margin-top: 40px;
+    margin-top: 120px;
     align-items: center;
 }
 
 .bt1 a {
-    color: rgba(255, 255, 255, 0.836);
+    color: rgb(65, 65, 65);
     text-decoration: none;
     font-family: 'Padauk', sans-serif;
     transition: 0.4s;
 }
 
-.bt1:hover {
-    background-color:#2b2b2b ;
-    transition: 0.4s;
-}
-
 .bt1 a:hover {
-    color: white;
+    color: rgb(0, 0, 0);
+    transition: 0.4s;
 }
 
 .pnj {
@@ -183,51 +178,63 @@ nav h4 span {
     
 }
 
-.dst {
+.dst1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    margin-top: 90px;
+
+}
+
+.dst2 {
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin: auto;
     margin-top: 50px;
-    flex-wrap: wrap;
-
 }
 
-.dst .bg1,.bg2,.bg3,.pj1,.pj2,.pj3 {
-    width: 250px;
+.dst1 .bg1,.pj1 {
+    width: 420px;
     height: 300px;
     border-radius: 5px;
     font-family:'Padauk', sans-serif ;
 }
 
-.cont3 .dst .img {
-    margin: 7px;
+.dst2 .bg2,.pj2 {
+    width: 420px;
+    height: 300px;
+    border-radius: 5px;
+    font-family:'Padauk', sans-serif ;
 }
 
-.dst .bg1 {
 
-    background-image: url(image/1.jpg);
+
+
+
+.dst1 .bg1 {
+
+    background-image: url(image/1b.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+
     
 }
 
 
 
-.dst .bg2 {
-    background-image: url(image/2.jpg);
+.dst2 .bg2 {
+    background-image: url(image/1a.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: -170px;
 
 }
 
-.dst .bg3 {
-    background-image: url(image/3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: -120px;
-}
+
+
+
+
 
 .sub {
     width: 900px;
